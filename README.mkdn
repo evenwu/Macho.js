@@ -64,8 +64,8 @@ entire strings.
 
     $('p').macho({
       'length':5,      // Wrapped text grouped to 5 CJK characters
-      'inline': false  // Generate <span class="macho"> instead of
-    });                // <span class="macho" style="display: inline-block;">
+      'inline': false  // Generate <span> instead of
+    });                // <span style="display: inline-block">
 
 ## Installation
 

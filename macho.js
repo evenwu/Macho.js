@@ -6,8 +6,8 @@
     }, options);
     len = settings.length;
     var output = settings.inline ? 
-      "<span class='macho' style='display: inline-block;'>$&</span>" :
-      "<span class='macho'>$&</span>";
+      "<span style='display:inline-block'>$&</span>" :
+      "<span>$&</span>";
 
     // TODO: need to reset if there is already <span class='macho'> tags in html
     // TODO: If there are some regexp strings in acc, there will be a problem
@@ -38,7 +38,7 @@
         }
       }
     };
-      
+
 
     var puncs_reg = new RegExp("[-,_\\|<.>/?;:'\"`~!@#$%&*()（）‧´・ωつдС；∀ﾟo彡★☆▽￣╮╭ノ╰〒皿～┴‵□′↗︴yΦθ↖，。？！：；＠m＃＄％︿＆＊＝＋╰╯崩潰艸凸∩＿ˍ▁▂▃▄▅▆▇◣◎█◢^]+$");
     this.each(function(idx){
